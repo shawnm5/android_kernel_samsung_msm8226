@@ -1023,7 +1023,7 @@ static int msm_cpu_status_probe(struct platform_device *pdev)
 	return 0;
 };
 
-static struct of_device_id msm_slp_sts_match_tbl[] __initdata= {
+static struct of_device_id msm_slp_sts_match_tbl[] __initdata = {
 	{.compatible = "qcom,cpu-sleep-status"},
 	{},
 };
